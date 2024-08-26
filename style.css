@@ -25,6 +25,11 @@ button {
     padding: 10px 15px;
     border-radius: 5px;
     margin: 20px 0px;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background: #000000;
 }
 
 button a {
@@ -85,9 +90,10 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 24px 15px;
+    padding: 10px 15px;
     color: #ffffff;
     font-weight: 500;
+    transition: all ease 0.5s;
 }
 
 .navbar.sticky ul li a {
@@ -95,6 +101,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    padding: 24px 15px;
     border-bottom: 4px solid #F33F3F;
 }
 
@@ -104,6 +111,7 @@ nav ul li a:hover {
 }
 
 nav ul li .active {
+    padding: 24px 15px;
     border-bottom: 4px solid #F33F3F;
 }
 
